@@ -1,5 +1,50 @@
 .menu {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        align-items: center;
+    }
+    &__item {
+        padding-right: 18px;
+        border-right: 1px dotted rgba($color: #fff, $alpha: .6);
+        &:last-child {
+            border-right: none;
+            padding-right: 0;
+        }
+        a {
+            position: relative;
+            color: #fff;
+            text-decoration: none;
+            transition: all .3s;
+            &:hover {
+                color: $main-color;
+                &::before {
+                    width: 100%;
+                }
+            }
+            &::before {
+                position: absolute;
+                content: '';
+                width: 0;
+                height: 1px;
+                background-color: $main-color;
+                bottom: -20%;
+                transition: all .3s;
+            }
+        }
+    }
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        font-size: 14px;
+        font-weight: 300;
+        color: #fff;
+        a {
+            font-size: 19px;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
 }
