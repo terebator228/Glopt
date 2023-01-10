@@ -5,6 +5,11 @@
     line-height: 23px;
     text-align: center;
     text-transform: uppercase;
+    &_white {
+        color: #ffffff;
+        font-size: 26px;
+        margin-top: 20px;
+    }
 }
 
 .subtitle {
@@ -13,4 +18,10 @@
     line-height: 24px;
     text-align: center;
     margin-top: 17px;
+    &_white {
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 27px;
+    }
 }
