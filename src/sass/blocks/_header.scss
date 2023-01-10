@@ -5,13 +5,12 @@
         list-style-type: none;
         align-items: center;
     }
+    &__logo {
+        margin-right: 55px;
+    }
     &__item {
-        padding-right: 18px;
+        padding-right: 14px;
         border-right: 1px dotted rgba($color: #fff, $alpha: .6);
-        &:last-child {
-            border-right: none;
-            padding-right: 0;
-        }
         a {
             position: relative;
             color: #fff;
@@ -33,7 +32,11 @@
                 transition: all .3s;
             }
         }
+        &_border-none {
+            border-right: none;
+        }
     }
+    
     &__contacts {
         display: flex;
         flex-direction: column;
