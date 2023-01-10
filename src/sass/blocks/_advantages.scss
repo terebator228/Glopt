@@ -1,0 +1,31 @@
+.advantages {
+    min-height: 590px;
+    padding: 58px 0 73px 0;
+    background-color: #f3f3f3;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(auto, 530px));
+        gap: 35px 62px;
+        margin-top: 31px;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+    &__descr {
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: left;
+        span {
+            color: $main-color;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+    &__img{
+        margin-right: 10px;
+    }
+}
