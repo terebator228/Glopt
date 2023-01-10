@@ -13,8 +13,18 @@
     width: 1145px;
     margin: 0 auto;
 }
+
+.divider {
+    width: 148px;
+    height: 1px;
+    background-color: $main-color;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
 @import 'blocks/title';
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/button';
 @import 'blocks/advantages';
+@import 'blocks/shipment';

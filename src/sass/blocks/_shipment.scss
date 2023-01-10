@@ -1,0 +1,30 @@
+.shipment {
+    min-height: 619px;
+    padding: 51px 0 57px 0;
+    &__subtitle {
+        max-width: 879px;
+        margin: 0 auto;
+        margin-top: 17px;
+    }
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 360px);
+        gap: 30px;
+        margin-top: 37px;
+    }
+    &__descr {
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: center;
+        margin-top: 27px;
+        span {
+            color: $main-color;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+            padding-bottom: 14px;
+        }
+    }
+}
