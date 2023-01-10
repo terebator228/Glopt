@@ -1,0 +1,26 @@
+.consulting {
+    position: relative;
+    max-width: 1140px;
+    min-height: 166px;
+    border: 1px solid #898989;
+    margin-top: 71px;
+    &__circle {
+        position: absolute;
+        width: 122px;
+        background-color: #fff;
+        top: -32%;
+        right: 50%;
+        transform: translateX(50%);
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 102px;
+        height: 102px;
+        border: 1px solid $main-color;
+        border-radius: 100%;
+        background-color: #fff;
+        margin: 0 auto;
+    }
+}
