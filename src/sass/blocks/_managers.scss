@@ -1,0 +1,20 @@
+.managers {
+    min-height: 342px;
+    padding: 58px 0 78px 0;
+    background: url('../img/bg3.png') center center / cover no-repeat;
+    &__circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 102px;
+        height: 102px;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+        margin: 0 auto;
+    }
+    &__subtitle {
+        max-width: 924px;
+        margin: 0 auto;
+        margin-top: 17px;
+    }
+}
