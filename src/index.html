@@ -64,7 +64,7 @@
                 </div>
             </div>
 
-            <button class="btn btn_fz15">
+            <button class="btn btn_fz15 promo__btn">
                 Получить расчет
             </button>
         </div>
@@ -247,10 +247,23 @@
                         <img src="icons/consulting.png" alt="consulting" class="consulting__img">
                     </div>
                 </div>
+                <form id="consulting-form" class="feed-form" action="#">
+                    <input name="name" placeholder="Ваше имя..." type="text">
+                    <input name="phone" placeholder="Ваш номер телефона...">
+                    <input name="email" placeholder="Ваш E-mail..." type="email">
+                    
+                    <div class="consulting__btn-wrapper">
+                        <button class="btn consulting__btn">Отправить заявку</button>
+                    </div>
+                    
+                </form>
             </div>
 
         </div>
     </section>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
