@@ -10,6 +10,7 @@
 }
 
 .container {
+    position: relative;
     width: 1145px;
     margin: 0 auto;
 }
@@ -32,3 +33,4 @@
 @import 'blocks/consulting';
 @import 'blocks/managers';
 @import 'blocks/work';
+@import 'blocks/reviews';

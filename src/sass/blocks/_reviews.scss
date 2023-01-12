@@ -1,0 +1,48 @@
+.reviews {
+    min-height: 470px;
+    padding: 51px 0 65px 0;
+    &__inner {
+        position: relative;
+        width: 600px;
+        margin: 0 auto;
+        margin-top: 31px;
+    }
+    .prev, .next  {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 40%;
+        border: none;
+        background-color: #fff;
+        img {
+            width: 14px;
+            height: 47px;
+        }
+    }
+    .next {
+        right: 40%;
+        left: auto;
+    }
+
+    .tns-item {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__review {
+        width: 600px;
+        margin: 0 auto;
+        text-align: center;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22.01px;
+        margin-top: 9px;
+        span {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 40px;
+        }
+    }
+}
