@@ -1,0 +1,35 @@
+.map {
+    position: relative;
+    min-height: 500px;
+    background: url('../img/map.png') center center / cover no-repeat;
+    &__marker {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 46%;
+    }
+    &__rectangle {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 50%;
+        width: 329px;
+        height: 158px;
+        padding: 27px 49px 28px 53px;
+        background: url('../img/rectangle.png') center center / cover no-repeat;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        span {
+            color: $main-color;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        a {
+            color: $main-color;
+            font-weight: 300;
+            text-decoration: underline;
+        }
+    }
+}
