@@ -1,7 +1,23 @@
 $(document).ready(function(){
     
 
-// validate
+    window.addEventListener('DOMContentLoaded', () => {
+        const hamburger_menu = document.querySelector('.hamburger-menu'),
+        menuItem = document.querySelectorAll('.menu_item'),
+        hamburger = document.querySelector('.hamburger');
+    
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('hamburger_active');
+            hamburger_menu.classList.toggle('hamburger-menu_active');
+        });
+    
+        menuItem.forEach(item => {
+            item.addEventListener('click', () => {
+                hamburger.classList.toggle('hamburger_active');
+                hamburger_menu.classList.toggle('hamburger-menu_active');
+            })
+        })
+    })
 
 function valideForms(form) {
     $(form).validate({
@@ -77,5 +93,6 @@ document.querySelector('.prev').addEventListener('click',function () {
 document.querySelector('.next').addEventListener('click',function () {
     slider.goTo('next');
 });
+
 
 });
