@@ -105,6 +105,11 @@
             font-size: 25px;
         }
     }
+    .advantages {
+        &__wrapper {
+            grid-template-columns: repeat(1,minmax(auto,530px));
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -119,4 +124,5 @@
             row-gap: 20px;
         }
     }
+    
 }
