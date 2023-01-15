@@ -61,6 +61,12 @@
             }
         }
     }
+    .shipment {
+        &__wrapper {
+            grid-template-columns: repeat(1, 0.7fr);
+            justify-content: center;
+        }
+    }
 }
 
 @media (max-width: 768px) {

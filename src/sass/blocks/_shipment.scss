@@ -8,7 +8,8 @@
     }
     &__wrapper {
         display: grid;
-        grid-template-columns: repeat(3, 360px);
+        grid-template-columns: repeat(3, 1fr);
+        grid-row: auto;
         gap: 30px;
         margin-top: 37px;
     }
@@ -26,5 +27,8 @@
             text-align: center;
             padding-bottom: 14px;
         }
+    }
+    &__img {
+        width: 100%;
     }
 }
