@@ -3,7 +3,7 @@
     padding: 62px 0 79px 0;
     background: url('../img/bg4.png') center center / cover no-repeat;
     &__wrapper {
-        height: 297px;
+        min-height: 297px;
         background-color: rgba(255, 255, 255, 0.7);
         max-width: 896px;
         margin: 0 auto;

@@ -68,8 +68,11 @@ const slider = tns({
     slideBy: 'page',
     autoplay: false,
     controls: false,
-    nav: false,
     responsive: {
+        320: {
+            nav: true,
+            mouseDrag: true
+        },
         640: {
           edgePadding: 20,
           gutter: 20,
@@ -79,7 +82,8 @@ const slider = tns({
           gutter: 30
         },
         900: {
-          items: 1
+          items: 1,
+          nav: false,
         }
       }
 });
